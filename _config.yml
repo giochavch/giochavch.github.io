@@ -289,6 +289,8 @@ defaults:
 
 sass:
   style: compressed
+  load_paths:
+    - assets/css
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
