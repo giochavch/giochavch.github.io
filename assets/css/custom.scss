@@ -15,6 +15,7 @@
 }
 
 .navbar-nav {
+    margin-left: auto;
     gap:1px;
 }
 
@@ -22,9 +23,11 @@
     font-size:17px;
     font-weight:400;
     color:var(--primary-color);
+    padding-left: 1px !important;  /* Controls space on the left of each text link */
+    padding-right: 1px !important; /* Controls space on the right of each textlink */
 }
 
-.navbar-nav a:hover{
+.-nav a:hover{
     color:var(--primary-color);
 }
 
