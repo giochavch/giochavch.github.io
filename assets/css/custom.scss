@@ -14,7 +14,20 @@
     padding-bottom: 14px;
 }
 
-/* 1. Ensure the parent container splits the brand and navigation links */
+/* Force al-folio's main structural container to expand */
+body .container {
+    max-width: 1400px !important; 
+    width: 100% !important;
+}
+
+/* Ensure your custom blocks scale all the way out to the new width boundary */
+.page-container, 
+.hero {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Ensure the parent container splits the brand and navigation links */
 .navbar .container {
     display: flex;
     justify-content: space-between; /* Pushes brand left, navigation container right */
@@ -22,7 +35,7 @@
     width: 100%;
 }
 
-/* 2. Group and align the links explicitly to the right side */
+/* Group and align the links explicitly to the right side */
 .navbar-nav {
     display: flex;
     margin-left: auto; /* Pushes the entire list block cleanly to the right edge */
