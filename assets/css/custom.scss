@@ -525,7 +525,7 @@ footer {
     }
     
     p {
-      font-size: 16px !important;  /* High legibility sizing */
+      font-size: 20px !important;  /* High legibility sizing */
       line-height: 1.6 !important;
       max-width: 100% !important;
     }
@@ -547,4 +547,17 @@ footer {
     grid-template-columns: repeat(2, 1fr) !important; /* 2 clean balanced columns */
     gap: 20px !important;
   }
+}
+
+/* ==========================================================================
+   FORCE BRAND NAME VISIBILITY ON THE HOMEPAGE (ABOUT LAYOUT)
+   ========================================================================== */
+
+/* Overrides al-folio's default engine that hides the brand on the root path */
+.navbar .navbar-brand,
+nav.navbar .navbar-brand,
+body .navbar-brand {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
