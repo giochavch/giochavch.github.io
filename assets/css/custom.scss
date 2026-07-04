@@ -48,6 +48,19 @@ body .container {
     color:var(--primary-color);
 }
 
+/* Overrides theme defaults to separate the brand and the nav links */
+.navbar > .container {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    max-width: 1400px !important; /* Forces layout tracking to match your wide page layout */
+}
+
+/* Removes standard alignment offsets pushed by the theme */
+.navbar-brand {
+    margin-right: auto !important;
+}
+
 .page-container{
     max-width: 1400px !important; 
     width: 100% !important;
@@ -250,4 +263,8 @@ a:hover {
 
 #progress{
     display:none;
+}
+
+#light-toggle-menu {
+    display: none !important;
 }
