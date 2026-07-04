@@ -105,6 +105,37 @@ body .container {
     width:300px;
 }
 
+/* Button adjustments */
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.button.btn-primary {
+  background: #1f3b73;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.button.btn-link {
+  color: #1f3b73;
+  background: transparent;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .card{
     border:1px solid #ececec;
     border-radius:20px;
@@ -112,6 +143,17 @@ body .container {
     box-shadow:none;
     transition:.2s;
     background:white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-arrow {
+  margin-top: auto; /* Pushes arrow to bottom of card */
+  color: #1f3b73;
+  font-size: 22px;
+  padding-top: 10px;
 }
 
 .card:hover{
@@ -265,8 +307,25 @@ a:hover {
     display:none;
 }
 
+footer {
+    display: none !important;
+}
+
 #light-toggle-menu {
     display: none !important;
+}
+
+/* Target all variants of the theme switcher to force removal */
+#light-toggle-menu,
+#light-toggle,
+.navbar-nav .nav-item:last-child button,
+.navbar-nav button[id*="light-toggle"] {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* ==========================================================================
@@ -334,4 +393,100 @@ a:hover {
     .navbar-nav a {
         font-size: 15px; /* Slightly compact typography for tiny screens */
     }
+}
+
+/* ==========================================================================
+   FIXING THE MOBILE COLLAPSIBLE NAV BAR
+   ========================================================================== */
+
+@media (max-width: 991px) {
+    /* 1. Ensure the container handles a clean vertical flow when open */
+    .navbar > .container {
+        display: flex !important;
+        flex-wrap: wrap !important; /* Permits menu items to wrap underneath the logo line */
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    /* 2. Make sure the Hamburger Toggle Button is visible and accessible */
+    .navbar-toggler {
+        display: block !important;
+        border: 1px solid var(--primary-color) !important; /* Adds clear border bounds */
+        padding: 4px 8px !important;
+        
+        /* Forces the native Bootstrap hamburger lines to render in your primary color tint */
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%231f3b73' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+        }
+    }
+
+    /* 3. Format the collapsed menu container dropdown stack */
+    .navbar-collapse {
+        flex-basis: 100% !important; /* Forces the menu block onto a brand new line below the brand name */
+        margin-top: 15px !important;
+    }
+
+    /* 4. Format the links beautifully inside the vertical mobile drawer layout */
+    .navbar-nav {
+        flex-direction: column !important; /* Stacks links vertically when open */
+        align-items: flex-start !important; /* Left-aligns links for a native layout feel */
+        gap: 16px !important;              /* Spacing between vertical choices */
+        padding: 10px 0 !important;
+        margin-left: 0 !important;         /* Cancels out the desktop far-right push */
+        width: 100% !important;
+    }
+
+    .navbar-nav a {
+        width: 100% !important;
+        padding: 4px 0 !important;
+        font-size: 16px !important;
+    }
+}
+
+/* ==========================================================================
+   IPAD & TABLET OPTIMIZATIONS (769px to 1024px)
+   ========================================================================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  /* Drop the hero area into a 2-column or structured stack to open room for text */
+  .hero-container {
+    flex-wrap: wrap !important;
+    gap: 30px !important;
+  }
+  
+  /* Pull out the images and center block to yield readable font sizing */
+  .hero-left {
+    flex: 0 0 20% !important;
+  }
+  
+  .hero-center {
+    flex: 0 0 75% !important;
+    
+    h1 {
+      font-size: 32px !important; /* Elegant header sizing */
+    }
+    
+    p {
+      font-size: 16px !important;  /* High legibility sizing */
+      line-height: 1.6 !important;
+      max-width: 100% !important;
+    }
+  }
+  
+  /* Place the large graphic centrally underneath the bio text */
+  .hero-right {
+    flex: 0 0 100% !important;
+    margin-top: 20px;
+    
+    .hero-graph {
+      max-width: 400px !important;
+      margin: 0 auto !important;
+    }
+  }
+  
+  /* Give cards room so text stays uncrowded */
+  .cards {
+    grid-template-columns: repeat(2, 1fr) !important; /* 2 clean balanced columns */
+    gap: 20px !important;
+  }
 }
