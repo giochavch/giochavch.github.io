@@ -268,3 +268,70 @@ a:hover {
 #light-toggle-menu {
     display: none !important;
 }
+
+/* ==========================================================================
+   MOBILE & RESPONSIVE STYLES (For screens smaller than 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    
+    /* 1. Global Page Paddings */
+    .page-container {
+        margin: 20px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* 2. Turn the Hero row into a vertical stack */
+    .hero-container {
+        flex-direction: column !important; /* Forces components to stack top-to-bottom */
+        align-items: flex-start !important; /* Aligns text left on mobile */
+        gap: 30px;
+    }
+
+    /* 3. Re-order sections if necessary, and ensure full width */
+    .hero-left, 
+    .hero-center, 
+    .hero-right {
+        width: 100% !important;
+        flex: none !important;
+    }
+
+    /* Optional: Center your profile picture exclusively on mobile */
+    .hero-left {
+        justify-content: center !important;
+    }
+    
+    .profile-photo {
+        max-width: 160px; /* Reduces image size slightly on small screens */
+    }
+
+    /* 4. Ensure the math plot graph fits the mobile screen nicely */
+    .hero-graph {
+        max-width: 280px;
+        margin: 0 auto; /* Centers the graph on mobile */
+    }
+
+    /* 5. Force the Quick Links cards into 1 single column */
+    .cards {
+        grid-template-columns: 1fr !important; /* Stacks cards sequentially */
+        gap: 16px;
+        margin-top: 30px;
+    }
+    
+    /* 6. Navigation Bar Fix for Mobile */
+    .navbar > .container {
+        flex-direction: column !important; /* Stacks logo name over links if they run out of space */
+        gap: 12px;
+    }
+    
+    .navbar-nav {
+        margin-left: 0 !important; /* Removes the far-right push */
+        width: 100%;
+        justify-content: space-between; /* Evenly spaces links horizontally on small screens */
+        gap: 10px;
+    }
+    
+    .navbar-nav a {
+        font-size: 15px; /* Slightly compact typography for tiny screens */
+    }
+}
