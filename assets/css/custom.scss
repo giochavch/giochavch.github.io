@@ -14,9 +14,20 @@
     padding-bottom: 14px;
 }
 
+/* 1. Ensure the parent container splits the brand and navigation links */
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /* Pushes brand left, navigation container right */
+    align-items: center;
+    width: 100%;
+}
+
+/* 2. Group and align the links explicitly to the right side */
 .navbar-nav {
-    margin-left: auto;
-    gap:1px;
+    display: flex;
+    margin-left: auto; /* Pushes the entire list block cleanly to the right edge */
+    align-items: center;
+    gap: 28px;        /* Keeps the spacing you established between links */
 }
 
 .navbar-nav a{
