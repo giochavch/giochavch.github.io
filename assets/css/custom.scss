@@ -1,13 +1,31 @@
 :root {
   --primary-color: #1f3b73;
-
   --text-color: #222222;
-
   --muted-text: #666666;
-
   --border-color: #e5e5e5;
-
   --background-color: #ffffff;
+}
+
+.navbar {
+    background: white !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #ececec;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.navbar-nav {
+    gap:28px;
+}
+
+.navbar-nav a{
+    font-size:17px;
+    font-weight:400;
+    color:#333;
+}
+
+.navbar-nav a:hover{
+    color:#1f3b73;
 }
 
 body {
