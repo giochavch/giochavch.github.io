@@ -397,4 +397,16 @@ footer { display: none !important; }
     padding: 0 !important;
     margin: 0 !important;
 }
+
+/* Hides the main header text on the page body, but leaves the navigation bar untouched */
+.post header.post-header, 
+.post h1.post-title,
+h1.title {
+    display: none !important;
+}
+
+/* Removes any massive empty gap or padding left behind by the hidden title */
+.post {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
 }
