@@ -1,8 +1,6 @@
 ---
-layout: page
-title: ""
-nav: true
-nav_title: "Home"
+layout: about
+title: "About"
 permalink: /
 ---
 
