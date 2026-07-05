@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ""
+nav: true
 nav_title: "Home"
 permalink: /
 ---
