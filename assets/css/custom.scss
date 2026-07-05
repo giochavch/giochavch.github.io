@@ -339,3 +339,56 @@ footer { display: none !important; }
     padding: 0 !important;
     margin: 0 !important;
 }
+
+/* Centered Profile Picture Container on All Devices */
+.hero-left { 
+    flex: 1; 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+/* New Wrapper to group elements and stack them vertically */
+.profile-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px; /* Spaces out the photo from the links block */
+}
+
+.profile-photo { 
+    display: block !important;
+    margin: 0 auto !important;
+    width: 170px; 
+    border-radius: 50%; 
+}
+
+/* Contact Block Layout */
+.profile-contact {
+    display: flex !important;
+    flex-direction: column !important; /* Stacks email over linkedin */
+    gap: 6px; /* Spaces out the links slightly */
+    text-align: center;
+}
+
+.contact-link {
+    font-size: 16px;
+    color: var(--muted-text) !important;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Spaces out the bootstrap icon from the text */
+    transition: color 0.2s;
+
+    i {
+        color: var(--primary-color); /* Makes the icons use your theme blue */
+        font-size: 15px;
+    }
+
+    &:hover {
+        color: var(--primary-color) !important;
+        text-decoration: underline !important;
+    }
+}
