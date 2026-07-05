@@ -397,3 +397,48 @@ footer { display: none !important; }
     padding: 0 !important;
     margin: 0 !important;
 }
+
+/* ==========================================================================
+   FORCE HORIZONTAL NAVBAR FLOW (FIXES FROZEN STACK)
+   ========================================================================== */
+#navbar, .navbar {
+    width: 100% !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #ececec;
+}
+
+/* Force standard desktop styling for screens larger than mobile (992px+) */
+@media (min-width: 992px) {
+    /* Ensures the menu container allows items to sit side-by-side */
+    .navbar-collapse, #navbarNav {
+        display: flex !important;
+        flex-basis: auto !important;
+        flex-grow: 0 !important;
+        margin-left: auto !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* Arranges the menu links in a clean horizontal row */
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: row !important; 
+        justify-content: flex-end !important;
+        align-items: center !important;
+        gap: 28px !important; /* Spaces out your links horizontally */
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style: none !important;
+    }
+
+    .navbar-nav .nav-item {
+        display: inline-block !important;
+    }
+
+    .navbar-nav a.nav-link {
+        padding: 0 !important;
+        white-space: nowrap !important;
+        color: #1f3b73 !important;
+        font-size: 17px !important;
+    }
+}
