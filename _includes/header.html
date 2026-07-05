@@ -1,0 +1,36 @@
+<header>
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-bold" href="{{ site.baseurl }}/">
+        {% if site.title == "blank" %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+          {% for p in site.pages %}
+            {% if p.title and p.inline != true %}
+              {% if p.permalink == '/' %}
+                {% else %}
+                <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
+                  <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+                </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
