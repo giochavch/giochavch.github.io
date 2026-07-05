@@ -47,7 +47,6 @@ body .container,
 .hero { margin: 40px auto 60px auto; }
 .hero-container { display: flex; justify-content: space-between; align-items: center; gap: 40px; }
 
-/* Centered Profile Picture Container on All Devices */
 .hero-left { 
     flex: 1; 
     display: flex !important;
@@ -104,7 +103,7 @@ body .container,
 .hero-center { 
     flex: 2; 
     p {
-        font-size: 21px !important;     
+        font-size: 18px !important;     
         line-height: 1.65 !important;   
         color: #333333 !important;
         max-width: 100% !important;
@@ -142,7 +141,6 @@ body .container,
   &:hover { text-decoration: underline; }
 }
 
-/* Feature Grid Cards */
 .cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; margin-top: 50px; }
 
 .card {
@@ -167,27 +165,26 @@ body .container,
 .card-icon { font-size: 28px; color: var(--primary-color); margin-bottom: 18px; display: block; }
 .card-arrow { margin-top: auto; color: #1f3b73; font-size: 22px; padding-top: 10px; }
 
-/* Subpages Styling */
 .research-page { max-width: 900px; margin: 80px auto; padding: 0 20px; }
 .page-title { font-size: 32px; font-weight: 600; margin-bottom: 30px; color: #1f3b73; }
 .research-text { font-size: 18px; line-height: 1.7; color: #222; border-left: 3px solid #1f3b73; padding-left: 16px; max-width: 700px; }
 
 /* ==========================================================================
-   4. NAVBAR OVERRIDES (CRUSHES AL-FOLIO HOMEPAGE ENGINE GLITCH)
+   4. FIXED DESKTOP NAVBAR OVERRIDES 
    ========================================================================== */
-.navbar {
+.navbar, nav.navbar, #navbar {
     background: white !important;
     box-shadow: none !important;
     border-bottom: 1px solid #ececec;
-    padding: 14px 0;
+    padding: 14px 0 !important;
 }
 
-/* Force navbar containers flat across both homepages and layouts */
+/* Force layout width properties explicitly down the container chain */
 html body header nav.navbar, 
 html body nav.navbar .container-fluid,
 html body nav.navbar .container,
 html body nav.navbar div[class*="container"],
-html body header nav.navbar > div {
+html body #navbar .container {
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-between !important;
@@ -200,20 +197,22 @@ html body header nav.navbar > div {
     padding-right: 20px !important;
 }
 
-/* Force the branding container row to stick to the left boundary edge */
+/* Pin branding alignment to the far left margin guide */
 html body div.navbar-brand-container,
 html body header nav.navbar .navbar-brand-container,
-html body header nav.navbar div[class*="brand"] {
+html body header nav.navbar div[class*="brand"],
+html body #navbar div[class*="brand"] {
     display: flex !important;
     flex-grow: 0 !important;
     margin-right: auto !important; 
     margin-left: 0 !important;
 }
 
-/* Bypasses homepage text-hiding layers and centers the name cleanly */
+/* Strip dynamic homepage text-hiding offsets completely */
 html body a.navbar-brand,
 html body nav.navbar a.navbar-brand,
-html body header nav.navbar a.navbar-brand {
+html body header nav.navbar a.navbar-brand,
+html body #navbar a.navbar-brand {
     display: inline-block !important;
     visibility: visible !important;
     opacity: 1 !important;
@@ -226,7 +225,8 @@ html body header nav.navbar a.navbar-brand {
 
 @media (min-width: 992px) {
     html body div.navbar-collapse,
-    html body nav.navbar .navbar-collapse {
+    html body nav.navbar .navbar-collapse,
+    html body #navbar .navbar-collapse {
         display: flex !important;
         flex-basis: auto !important;
         flex-grow: 0 !important;
@@ -281,7 +281,8 @@ html body header nav.navbar a.navbar-brand {
     }
 
     html body div.navbar-collapse,
-    html body nav.navbar .navbar-collapse {
+    html body nav.navbar .navbar-collapse,
+    html body #navbar .navbar-collapse {
         flex-basis: 100% !important; 
         width: 100% !important;      
         margin-top: 14px !important;
@@ -305,9 +306,10 @@ html body header nav.navbar a.navbar-brand {
         font-size: 16px !important;
     }
 
-    /* Handlers for Toggler Box Placement */
+    /* FORCED ALIGNMENT: Prevents navbar collapse scripts from hiding the toggle layout container frame */
     html body button.navbar-toggler,
-    html body header nav.navbar button.navbar-toggler {
+    html body header nav.navbar button.navbar-toggler,
+    html body #navbar button.navbar-toggler {
         display: inline-flex !important;
         align-items: center !important;
         justify-content: center !important;
@@ -322,11 +324,13 @@ html body header nav.navbar a.navbar-brand {
         margin-right: 0 !important;
         visibility: visible !important;
         opacity: 1 !important;
+        position: relative !important;
     }
 
-    /* FORCED RENDER: Rebuilds missing hamburger icons from scratch */
+    /* FORCED DRAW: Overrides broken dynamic image tags by rendering a native icon box directly into the toggle container */
     html body span.navbar-toggler-icon,
-    html body header nav.navbar span.navbar-toggler-icon {
+    html body header nav.navbar span.navbar-toggler-icon,
+    html body #navbar span.navbar-toggler-icon {
         background: none !important;
         background-image: none !important;
         width: 24px !important;
@@ -337,10 +341,11 @@ html body header nav.navbar a.navbar-brand {
     }
 
     html body span.navbar-toggler-icon::before,
-    html body header nav.navbar span.navbar-toggler-icon::before {
+    html body header nav.navbar span.navbar-toggler-icon::before,
+    html body #navbar span.navbar-toggler-icon::before {
         display: block !important;
         font-family: "bootstrap-icons" !important;
-        content: "\f479" !important; /* Injects the system icon code explicitly */
+        content: "\f479" !important; 
         color: #1f3b73 !important;   
         font-size: 24px !important;   
         font-style: normal !important;
