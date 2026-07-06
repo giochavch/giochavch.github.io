@@ -384,3 +384,45 @@ h1.title {
     padding-top: 0 !important;
     margin-top: 0 !important;
 }
+
+/* ==========================================================================
+   PROJECTS DROPDOWN STYLE UPGRADE (NON-TRANSPARENT & SMOOTH ANIMATION)
+   ========================================================================== */
+
+// 1. Core structural styling for the dropdown menu container
+.navbar .dropdown-menu {
+  background-color: var(--background-color, #ffffff) !important; // Absolute opaque background
+  border: 1px solid var(--border-color, #e5e5e5) !important;   // Crisp, thin matching border
+  border-radius: 4px !important;                               // Subtle modern rounded corners
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;       // Soft, premium depth drop shadow
+  padding: 8px 0 !important;
+  margin-top: 10px !important;                                 // Slight spacing context away from the navbar item
+  
+  // Disable Bootstrap's sudden default transitions to make room for custom timing
+  display: block !important; 
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease !important;
+}
+
+// 2. The Smooth "Fade & Slide-up" Trigger on Hover
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0); // Slides up gracefully into place
+}
+
+// 3. Styling the individual dropdown text links inside
+.navbar .dropdown-item {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-size: 15px !important;
+  color: var(--text-color, #222222) !important;
+  padding: 8px 20px !important;
+  transition: background-color 0.2s ease, color 0.2s ease !important;
+
+  &:hover {
+    background-color: #f8f9fa !important;                      // Clean, subtle highlight background
+    color: var(--primary-color, #1f3b73) !important;           // Turns text into your rich branding theme color
+  }
+}
