@@ -176,7 +176,7 @@ body .container,
     background: white !important;
     box-shadow: none !important;
     border-bottom: 1px solid #ececec;
-    padding: 7px 0 !important;
+    padding: 14px 0 !important;
 }
 
 /* Force layout width properties explicitly down the container chain */
@@ -459,4 +459,19 @@ h1.title {
         margin-left: auto !important; 
         margin-right: 0 !important;
     }
+}
+
+// Force the navigation links to display horizontally on desktop viewports
+@media (min-width: 992px) {
+  #navbarNav {
+    display: flex !important; // Force overrides Bootstrap's hidden mobile rule
+  }
+  
+  .navbar-nav {
+    flex-direction: row !important; // Align menu items side-by-side horizontally
+  }
+  
+  .navbar-toggler {
+    display: none !important; // Completely hide the hamburger icon on desktop screens
+  }
 }
