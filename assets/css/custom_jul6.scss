@@ -170,16 +170,16 @@ body .container,
 .research-text { font-size: 18px; line-height: 1.7; color: #222; border-left: 3px solid #1f3b73; padding-left: 16px; max-width: 700px; }
 
 /* ==========================================================================
-   4. NAVIGATION BAR SETUP & PERMANENT MOBILE HAMBURGER LOGO (All Screen Sizes)
+   4. FIXED DESKTOP NAVBAR OVERRIDES 
    ========================================================================== */
 .navbar, nav.navbar, #navbar {
     background: white !important;
     box-shadow: none !important;
     border-bottom: 1px solid #ececec;
-    padding: 14px 0 !important;
+    padding: 7px 0 !important;
 }
 
-/* Force layout width properties and wrap behavior to contain the dropdown list globally */
+/* Force layout width properties explicitly down the container chain */
 html body header nav.navbar, 
 html body nav.navbar .container-fluid,
 html body nav.navbar .container,
@@ -187,7 +187,6 @@ html body nav.navbar div[class*="container"],
 html body #navbar .container {
     display: flex !important;
     flex-direction: row !important;
-    flex-wrap: wrap !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
@@ -209,7 +208,7 @@ html body #navbar div[class*="brand"] {
     margin-left: 0 !important;
 }
 
-/* Base branding formatting properties */
+/* Strip dynamic homepage text-hiding offsets completely */
 html body a.navbar-brand,
 html body nav.navbar a.navbar-brand,
 html body header nav.navbar a.navbar-brand,
@@ -224,98 +223,35 @@ html body #navbar a.navbar-brand {
     font-weight: 500 !important;
 }
 
-/* FORCE THE DROPDOWN CONTAINER TO ACT LIKE A VERTICAL CABINET ON ALL SCREENS */
-html body div.navbar-collapse,
-html body nav.navbar .navbar-collapse,
-html body #navbar .navbar-collapse {
-    flex-basis: 100% !important; 
-    width: 100% !important;      
-    margin-top: 14px !important;
-    padding-left: 0 !important;  
-    padding-right: 0 !important;
-}
-
-/* Hide the drawer links by default on all screens until expanded (.show) */
-html body .navbar-collapse:not(.show) {
-    display: none !important;
-}
-
-/* Force links list to stack cleanly inside the dropdown drawer layout */
-html body .navbar-nav {
-    display: flex !important;
-    flex-direction: column !important; 
-    align-items: flex-start !important; 
-    gap: 14px !important;
-    width: 100% !important;
-    padding: 10px 0 !important;
-    margin-left: 0 !important;
-}
-
-html body .navbar-nav a {
-    width: 100% !important;
-    padding: 6px 0 !important;
-    font-size: 16px !important;
-    color: var(--primary-color);
-}
-
-/* FORCED TOGGLER APPEARANCE: Ensures the hamburger layout container stays visible globally */
-html body button.navbar-toggler,
-html body header nav.navbar button.navbar-toggler,
-html body #navbar button.navbar-toggler {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    background: transparent !important;
-    background-image: none !important;
-    border: 1px solid #1f3b73 !important;
-    padding: 6px 10px !important;
-    border-radius: 6px !important;
-    outline: none !important;
-    box-shadow: none !important;
-    margin-left: auto !important; 
-    margin-right: 0 !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: relative !important;
-}
-
-/* FORCED TOGGLER VECTOR: Generates beautiful Bootstrap Icon menu vector inside container button */
-html body span.navbar-toggler-icon,
-html body header nav.navbar span.navbar-toggler-icon,
-html body #navbar span.navbar-toggler-icon {
-    background: none !important;
-    background-image: none !important;
-    width: 24px !important;
-    height: 24px !important;
-    display: inline-block !important;
-    position: relative !important;
-    visibility: visible !important;
-}
-
-html body span.navbar-toggler-icon::before,
-html body header nav.navbar span.navbar-toggler-icon::before,
-html body #navbar span.navbar-toggler-icon::before {
-    display: block !important;
-    font-family: "bootstrap-icons" !important;
-    content: "\f479" !important; 
-    color: #1f3b73 !important;   
-    font-size: 24px !important;   
-    font-style: normal !important;
-    font-weight: normal !important;
-    line-height: 1 !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 24px !important;
-    height: 24px !important;
-}
-
-html body span.navbar-toggler-icon::after {
-    display: none !important;
+@media (min-width: 992px) {
+    html body div.navbar-collapse,
+    html body nav.navbar .navbar-collapse,
+    html body #navbar .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto !important;
+        flex-grow: 0 !important;
+        margin-left: auto !important;
+        width: auto !important;
+    }
+    html body .navbar-nav {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        gap: 28px !important;
+        margin-left: auto !important;
+    }
+    html body .navbar-nav a {
+        font-size: 17px;
+        font-weight: 400;
+        color: var(--primary-color);
+        padding: 0 !important;
+        &:hover { text-decoration: none; }
+    }
 }
 
 /* ==========================================================================
-   5. IPAD & TABLET OPTIMIZATIONS (769px to 1024px Layout Guides)
+   5. IPAD & TABLET OPTIMIZATIONS (769px to 1024px)
    ========================================================================== */
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero-container { flex-wrap: wrap !important; gap: 30px !important; }
@@ -335,7 +271,100 @@ html body span.navbar-toggler-icon::after {
 }
 
 /* ==========================================================================
-   6. PHONE SPECIFIC ADJUSTMENTS (Screens <= 768px)
+   6. IPAD PORTRAIT & MOBILE DROP-DOWN MENU FIXES (Screens <= 991px)
+   ========================================================================== */
+@media (max-width: 991px) {
+    html body nav.navbar .container,
+    html body nav.navbar .container-fluid,
+    html body nav.navbar div[class*="container"] {
+        flex-wrap: wrap !important; 
+    }
+
+    html body div.navbar-collapse,
+    html body nav.navbar .navbar-collapse,
+    html body #navbar .navbar-collapse {
+        flex-basis: 100% !important; 
+        width: 100% !important;      
+        margin-top: 14px !important;
+        padding-left: 0 !important;  
+        padding-right: 0 !important;
+    }
+
+    html body .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: flex-start !important; 
+        gap: 14px !important;
+        width: 100% !important;
+        padding: 10px 0 !important;
+        margin-left: 0 !important;
+    }
+
+    html body .navbar-nav a {
+        width: 100% !important;
+        padding: 6px 0 !important;
+        font-size: 16px !important;
+    }
+
+    /* FORCED ALIGNMENT: Prevents navbar collapse scripts from hiding the toggle layout container frame */
+    html body button.navbar-toggler,
+    html body header nav.navbar button.navbar-toggler,
+    html body #navbar button.navbar-toggler {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background: transparent !important;
+        background-image: none !important;
+        border: 1px solid #1f3b73 !important;
+        padding: 6px 10px !important;
+        border-radius: 6px !important;
+        outline: none !important;
+        box-shadow: none !important;
+        margin-left: auto !important; 
+        margin-right: 0 !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+    }
+
+    /* FORCED DRAW: Overrides broken dynamic image tags by rendering a native icon box directly into the toggle container */
+    html body span.navbar-toggler-icon,
+    html body header nav.navbar span.navbar-toggler-icon,
+    html body #navbar span.navbar-toggler-icon {
+        background: none !important;
+        background-image: none !important;
+        width: 24px !important;
+        height: 24px !important;
+        display: inline-block !important;
+        position: relative !important;
+        visibility: visible !important;
+    }
+
+    html body span.navbar-toggler-icon::before,
+    html body header nav.navbar span.navbar-toggler-icon::before,
+    html body #navbar span.navbar-toggler-icon::before {
+        display: block !important;
+        font-family: "bootstrap-icons" !important;
+        content: "\f479" !important; 
+        color: #1f3b73 !important;   
+        font-size: 24px !important;   
+        font-style: normal !important;
+        font-weight: normal !important;
+        line-height: 1 !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 24px !important;
+        height: 24px !important;
+    }
+    
+    html body span.navbar-toggler-icon::after {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   7. PHONE SPECIFIC ADJUSTMENTS (Screens <= 768px)
    ========================================================================== */
 @media (max-width: 768px) {
     .page-container { margin: 20px auto; }
@@ -349,7 +378,7 @@ html body span.navbar-toggler-icon::after {
 }
 
 /* ==========================================================================
-   7. CLEANUP STYLES & ELEMENT HIDES
+   8. CLEANUP STYLES & ELEMENT HIDES
    ========================================================================== */
 #progress { display: none; }
 footer { display: none !important; }
@@ -380,4 +409,69 @@ h1.title {
 .post {
     padding-top: 0 !important;
     margin-top: 0 !important;
+}
+
+/* ==========================================================================
+   FORCE MOBILE COLLAPSED NAVBAR ON PORTRAIT IPADS / TABLETS (< 992px)
+   ========================================================================== */
+@media (max-width: 991.98px) {
+    /* Hide the horizontal desktop links */
+    html body .navbar-collapse:not(.show) {
+        display: none !important;
+    }
+
+    /* Force the mobile container layout to wrap */
+    html body nav.navbar .container,
+    html body nav.navbar .container-fluid {
+        flex-wrap: wrap !important;
+    }
+
+    /* Force the hidden menu links to switch to vertical stack when unfolded */
+    html body div.navbar-collapse,
+    html body nav.navbar .navbar-collapse,
+    html body #navbar .navbar-collapse {
+        flex-basis: 100% !important;  
+        width: 100% !important;       
+        margin-top: 14px !important;
+    }
+
+    html body .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: flex-start !important; 
+        gap: 14px !important;
+        width: 100% !important;
+        padding: 10px 0 !important;
+    }
+
+    html body .navbar-nav a {
+        width: 100% !important;
+        padding: 6px 0 !important;
+    }
+
+    /* Force the hidden hamburger button to reappear */
+    html body button.navbar-toggler,
+    html body header nav.navbar button.navbar-toggler,
+    html body #navbar button.navbar-toggler {
+        display: inline-flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        margin-left: auto !important; 
+        margin-right: 0 !important;
+    }
+}
+
+// Force the navigation links to display horizontally on desktop viewports
+@media (min-width: 992px) {
+  #navbar {
+    display: flex !important; // Force overrides Bootstrap's hidden mobile rule
+  }
+  
+  .navbar {
+    flex-direction: row !important; // Align menu items side-by-side horizontally
+  }
+  
+  .navbar-toggler {
+    display: none !important; // Completely hide the hamburger icon on desktop screens
+  }
 }
