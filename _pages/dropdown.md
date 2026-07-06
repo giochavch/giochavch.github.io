@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Projects
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: Probability for Quantitative Interviews
+    permalink: /probability_quant/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Exam Grading System
+    permalink: /grading_system/
 ---
