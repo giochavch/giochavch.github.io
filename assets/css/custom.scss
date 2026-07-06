@@ -463,11 +463,11 @@ h1.title {
 
 // Force the navigation links to display horizontally on desktop viewports
 @media (min-width: 992px) {
-  #navbarNav {
+  #navbar {
     display: flex !important; // Force overrides Bootstrap's hidden mobile rule
   }
   
-  .navbar-nav {
+  .navbar {
     flex-direction: row !important; // Align menu items side-by-side horizontally
   }
   
