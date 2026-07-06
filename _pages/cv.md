@@ -2,6 +2,8 @@
 layout: page
 title: Curriculum Vitae
 permalink: /cv/
+nav: true
+nav_order: 4
 ---
 
 <div class="cv-embed-container">
