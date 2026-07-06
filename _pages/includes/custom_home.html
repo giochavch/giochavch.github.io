@@ -94,3 +94,37 @@
   </div>
 
 </main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Find the inner container of the navigation bar
+    var navContainer = document.querySelector("#navbar .container");
+    
+    if (navContainer) {
+      // Check if the brand logo link already exists to avoid duplicate additions
+      if (!navContainer.querySelector(".navbar-brand")) {
+        
+        // Create the anchor element matching your other pages
+        var logoLink = document.createElement("a");
+        logoLink.className = "navbar-brand title font-weight-lighter";
+        logoLink.href = "/";
+        logoLink.innerHTML = '<span class="font-weight-bold">Giorgi</span> Chavchanidze';
+        
+        // Insert the logo brand element right at the beginning of the container
+        navContainer.insertBefore(logoLink, navContainer.firstChild);
+      }
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var navbar = document.getElementById("navbar");
+    if (navbar) {
+      // Remove the hardcoded small breakpoint class
+      navbar.classList.remove("navbar-expand-sm");
+      // Inject the large breakpoint class so it stays collapsed on portrait iPads
+      navbar.classList.add("navbar-expand-lg");
+    }
+  });
+</script>
