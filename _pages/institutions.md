@@ -8,15 +8,15 @@ permalink: /institutions/
     <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;"> About Affiliated Institutions </h1>
 
 <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-    CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;"> Executive and Supervisory Committee </a> includes 3 Nobel laureates in Economics.
+    CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Executive and Supervisory Committee</a> includes 3 Nobel laureates in Economics.
 </p>
 
 <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-    Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;"> Shanghai Academic Rankings </a> among Top-10/Top-20 academic research institions in Finance in recent years.
+    Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Shanghai Academic Rankings</a> among Top-10/Top-20 academic research institions in Finance in recent years.
 </p>
 
 <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-    EDHEC is particularly strong at the intersection of academic and industry research and its Master's Program in Finance has been consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;"> Financial Times </a> in recent years. 
+    EDHEC is particularly strong at the intersection of academic and industry research and its Master's Program in Finance has been consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Financial Times</a> in recent years. 
 </p>
 
 <script>
