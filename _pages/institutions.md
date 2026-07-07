@@ -4,30 +4,22 @@ title: Institutions
 permalink: /institutions/
 ---
 
-<div class="content-section-header">
-    <h2>Research Overview & Focus</h2>
-    <span class="header-line"></span>
+<div style="text-align: center; margin-bottom: 40px; margin-top: 10px;">
+    <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;">Research Statement</h1>
+    <p style="font-size: 18px; font-style: italic; color: #222222; margin: 0;">Giorgi Chavchanidze</p>
 </div>
 
-<p class="lead-text">
-    This page outlines my primary academic research focus, ongoing working papers, and core methodological frameworks. My work lies at the intersection of quantitative analysis, economic theory, and system optimization.
+<p style="text-align: justify; font-size: 16.5px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
+    CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer"> Executive and Supervisory Committee </a> includes 3 Nobel laureates in Economics.
 </p>
 
-<div class="content-row">
-    <div class="content-column">
-        <h3>Core Methodology</h3>
-        <p>Utilizing high-dimensional empirical tracking alongside structural optimization vectors to evaluate network efficiency under localized volatility constraints.</p>
-    </div>
-    <div class="content-column">
-        <h3>Primary Datasets</h3>
-        <p>Primary data collection spans cross-sectional institutional registers from 2018–2026, matched with granular high-frequency transactional feeds.</p>
-    </div>
-</div>
+<p style="text-align: justify; font-size: 16.5px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
+    To capture these latent variations, I introduce an empirical tracking framework designed to mitigate high-dimensional structural data distortions. Unlike traditional aggregates, this baseline implementation retains granular behavioral signals without risking model over-fitting. Full technical equations are covered in my active <a href="/projects/" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Working Projects Registry</a>.
+</p>
 
-<blockquote class="academic-quote">
-    <p>"By re-centering structural parameters within local distribution models, we capture latent market anomalies previously obscured by broad aggregations."</p>
-    <cite>— Main Thesis Framework, Chapter 2</cite>
-</blockquote>
+<p style="text-align: justify; font-size: 16.5px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
+    A significant portion of my current portfolio operationalizes these optimization parameters against high-frequency datasets spanning a multi-year horizon. This stream isolates clear friction patterns within distribution networks. For supplementary reading, feel free to visit the external <a href="https://google.com" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Research Database Gateway</a>.
+</p>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
