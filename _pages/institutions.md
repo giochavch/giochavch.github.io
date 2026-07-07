@@ -4,21 +4,19 @@ title: Institutions
 permalink: /institutions/
 ---
 
-<div style="text-align: center; margin-bottom: 40px; margin-top: 10px;">
-    <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;">Research Statement</h1>
-    <p style="font-size: 18px; font-style: italic; color: #222222; margin: 0;">Giorgi Chavchanidze</p>
-</div>
+<div style="text-align: left; margin-bottom: 40px; margin-top: 10px;">
+    <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;"> About Affiliated Institutions </h1>
 
-<p style="text-align: justify; font-size: 16.5px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-    CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer"> Executive and Supervisory Committee </a> includes 3 Nobel laureates in Economics.
+<p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
+    CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;"> Executive and Supervisory Committee </a> includes 3 Nobel laureates in Economics.
 </p>
 
-<p style="text-align: justify; font-size: 16.5px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-    To capture these latent variations, I introduce an empirical tracking framework designed to mitigate high-dimensional structural data distortions. Unlike traditional aggregates, this baseline implementation retains granular behavioral signals without risking model over-fitting. Full technical equations are covered in my active <a href="/projects/" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Working Projects Registry</a>.
+<p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
+    Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;"> Shanghai Academic Rankings </a> among Top-10/Top-20 academic research institions in Finance in recent years.
 </p>
 
-<p style="text-align: justify; font-size: 16.5px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-    A significant portion of my current portfolio operationalizes these optimization parameters against high-frequency datasets spanning a multi-year horizon. This stream isolates clear friction patterns within distribution networks. For supplementary reading, feel free to visit the external <a href="https://google.com" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Research Database Gateway</a>.
+<p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
+    EDHEC is particularly strong at the intersection of academic and industry research and its Master's Program in Finance has been consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;"> Financial Times </a> in recent years. 
 </p>
 
 <script>
