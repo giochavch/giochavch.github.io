@@ -7,9 +7,9 @@ permalink: /institutions/
 <div style="text-align: left; margin-bottom: 40px; margin-top: 10px;">
     <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;"> About Affiliated Institutions </h1>
 
-<div style="height: 50px; clear: both;"></div>
+<div style="height: 30px; clear: both;"></div>
 
-<div style="border-left: 2px solid #1f3b73; padding-left: 25px; margin-left: 5px;">
+<div style="border-left: 3px solid #1f3b73; padding-left: 25px; margin-left: 5px;">
 
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
         CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Executive and Supervisory Committee</a> includes 3 Nobel laureates in Economics.
