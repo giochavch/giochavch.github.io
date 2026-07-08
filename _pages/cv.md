@@ -6,10 +6,13 @@ nav: true
 nav_order: 2
 ---
 
-<div class="cv-embed-container">
-    <iframe src="{{ '/assets/pdf/cv.pdf' | relative_url }}" width="100%" height="900px" style="border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+<div class="cv-embed-container" style="position: relative; width: 100%; height: 0; padding-bottom: 120%; margin-bottom: 25px; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <iframe 
+        src="https://mozilla.github.io/pdf.js/web/viewer.html?file={{ '/assets/pdf/cv.pdf' | relative_url | absolute_url }}" 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+        allow="autoplay">
         <p>Your browser does not support embedding PDFs. 
-           <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" class="button btn-primary">Download </a> the CV Document instead.
+           <a href="{{ '/assets/pdf/giorgi_chavchanidze_cv.pdf' | relative_url }}" class="button btn-primary">Download the CV Document instead</a>.
         </p>
     </iframe>
 </div>
