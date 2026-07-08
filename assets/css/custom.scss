@@ -515,3 +515,55 @@ blockquote.academic-quote {
         letter-spacing: 0.5px;
     }
 }
+
+/* ==========================================================================
+   5. COURSES & TEACHING PAGE LAYOUT
+   ========================================================================== */
+
+.courses-container {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+  .course-item {
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--border-color, #e5e5e5);
+    transition: border-color 0.3s ease;
+
+    &:hover {
+      border-left-color: var(--primary-color, #1f3b73);
+    }
+  }
+
+  .course-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 600;
+    font-size: 1.45rem;
+    color: var(--primary-color, #1f3b73);
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+  }
+
+  .course-metadata {
+    font-size: 0.9rem;
+    color: var(--muted-text, #666666);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+
+    .meta-institution {
+      font-weight: 600;
+      color: var(--text-color, #222222);
+    }
+  }
+
+  .course-description {
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--text-color, #222222);
+      margin: 0;
+    }
+  }
+}
