@@ -9,8 +9,6 @@ permalink: /institutions/
 
 <div style="height: 30px; clear: both;"></div>
 
-<div style="border-left: 3px solid #1f3b73; padding-left: 12.5px; margin-left: 2.5px;">
-
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
         CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Executive and Supervisory Committee</a> includes 3 Nobel laureates in Economics.
     </p>
