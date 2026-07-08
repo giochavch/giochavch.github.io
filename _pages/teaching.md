@@ -6,30 +6,31 @@ nav: true
 nav_order: 4
 ---
 
-<div class="courses-container">
+<div class="teaching-page-wrapper">
   
-  <div class="course-item">
-    <h3 class="course-title">ECON 101: Introduction to Microeconomics</h3>
-    <div class="course-metadata">
-      <span class="meta-institution">Harvard University</span> &middot; 
-      <span class="meta-role">Instructor of Record</span> &middot; 
-      <span class="meta-duration">4 Semesters</span>
-    </div>
-    <div class="course-description">
-      <p>This course introduces students to the fundamental principles of microeconomic theory, including consumer behavior, firm production dynamics, market structures, and public policy interventions. Emphasizes real-world applications and quantitative problem-solving tools.</p>
-    </div>
+  <div class="page-header-block">
+    <h1 class="page-main-title">Teaching</h1>
+    <div class="header-accent-bar"></div>
   </div>
 
-  <div class="course-item">
-    <h3 class="course-title">STAT 210: Probability for Quantitative Interviews</h3>
-    <div class="course-metadata">
-      <span class="meta-institution">Stanford University</span> &middot; 
-      <span class="meta-role">Graduate Teaching Assistant</span> &middot; 
-      <span class="meta-duration">2 Semesters</span>
+  <div class="courses-container">
+    
+    <div class="course-item">
+      <h3 class="course-title">MFIN 1021: Fundamentals of Finance</h3>
+      <div class="course-metadata">
+        <span class="meta-institution">Boston College</span> &middot; 
+        <span class="meta-role">Teaching Assistant</span> &middot; 
+        <span class="meta-duration">2 Semesters</span>
+      </div>
+      <div class="course-description">
+        <p>The course covers fundamental topics in finance, such as Time Value of Money, Inflation, Retirement, Bond Valuation, Financial Statements and Ratios, Capital Budgeting (with Risk and Taxes), Scenario Analysis, Risk and Return, CAPM and Beta, Stock Valuation and Efficient Markets Hypothesis.</p>
+      </div>
     </div>
-    <div class="course-description">
-      <p>A rigorous, seminar-style review of stochastic processes, conditional probability, and combinatorial analysis. Tailored specifically for advanced undergraduates preparing for quantitative research and engineering tracks.</p>
-    </div>
+
+  </div>
+
+  <div class="teaching-footer-note">
+    <p>You can read about my teaching philosophy <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="custom-teaching-link">here </a>.</p>
   </div>
 
 </div>
