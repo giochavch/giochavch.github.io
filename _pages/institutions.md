@@ -14,7 +14,7 @@ permalink: /institutions/
     </p>
     
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-        Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Shanghai Academic Rankings</a> among Top-10/Top-20 academic research institions in Finance in recent years.
+        Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Shanghai Academic Rankings</a> among Top-10/Top-20 academic research institions in Finance in recent years. According to <a href="https://www.linkedin.com/posts/ilyavcandpe_stanford-and-harvard-dont-lead-every-field-share-7454293010529554432-KN77/?rcm=ACoAAAwNsqwBrBv2RzTrqD6TdAs_fyGNihZoAlA" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold; text-decoration: underline;">Stanford University Graduate School of Business</a>, Boston College is also #1 in the US in terms of the number of Unicorn founders among alumni with Finance majors.
     </p>
     
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
