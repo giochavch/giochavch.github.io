@@ -14,7 +14,7 @@ nav_order: 4
   </div>
 
   <div class="teaching-intro-note">
-    <p>You can read about my teaching philosophy <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="custom-teaching-link">here</a>.</p>
+    <p>You can read about my teaching philosophy <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="custom-link">here</a>.</p>
   </div>
 
   <h2 class="section-courses-title">Courses</h2>
