@@ -27,7 +27,7 @@ nav_order: 4
         <span class="meta-institution">Boston College</span>&bull;
         <span class="meta-role">Teaching Assistant</span>&bull;
         <span class="meta-duration">2 Semesters</span>&bull;
-        <span class="meta-duration"><large>100-150<\large> students <small>per Semester</small></span>
+        <span class="meta-duration"><large>100-150</large> students <small>per Semester</small></span>
       </div>
       <div class="course-description">
         <p>The course covers fundamental topics in finance, such as Time Value of Money, Inflation, Retirement, Bond Valuation, Financial Statements and Ratios, Capital Budgeting (with Risk and Taxes), Scenario Analysis, Risk and Return, CAPM and Beta, Stock Valuation and Efficient Markets Hypothesis.</p>
