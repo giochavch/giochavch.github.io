@@ -25,12 +25,12 @@ nav_order: 4
       <h3 class="course-title">MFIN 1021: Fundamentals of Finance</h3>
       <div class="course-metadata">
         <span class="meta-institution">Boston College</span>
-        <span class="meta-separator">&middot;</span>
+        <span class="meta-separator"></span> &bull;
         <span class="meta-role">Teaching Assistant</span>
         <span class="meta-separator">&middot;</span>
         <span class="meta-duration">2 Semesters</span>
         <span class="meta-separator">&middot;</span>
-        <span class="meta-duration">100-150 students per Semester</span>
+        <span class="meta-duration">100-150 students <small>per Semester</small></span>
       </div>
       <div class="course-description">
         <p>The course covers fundamental topics in finance, such as Time Value of Money, Inflation, Retirement, Bond Valuation, Financial Statements and Ratios, Capital Budgeting (with Risk and Taxes), Scenario Analysis, Risk and Return, CAPM and Beta, Stock Valuation and Efficient Markets Hypothesis.</p>
