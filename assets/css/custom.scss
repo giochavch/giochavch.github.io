@@ -612,6 +612,15 @@ blockquote.academic-quote {
       font-weight: 600;
       color: var(--text-color, #222222);
     }
+
+     // Bold Middot Adjustment
+    .meta-separator {
+      font-weight: 700;                 // Makes it bold
+      font-size: 1.1rem;                // Increases the visual thickness slightly
+      padding: 0 0.35rem;               // Ensures uniform spacing on both sides
+      color: var(--primary-color, #1f3b73); // Optional: makes it your custom blue tone, or change to var(--text-color) for dark gray
+      vertical-align: middle;           // Keeps it perfectly centered between metadata fields
+    }
   }
 
   .course-description {
