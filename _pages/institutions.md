@@ -14,11 +14,11 @@ permalink: /institutions/
     </p>
     
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-        Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Shanghai Academic Rankings</a> among Top-10/Top-20 academic research institions in Finance in recent years. According to <a href="https://www.linkedin.com/posts/ilyavcandpe_stanford-and-harvard-dont-lead-every-field-share-7454293010529554432-KN77/?rcm=ACoAAAwNsqwBrBv2RzTrqD6TdAs_fyGNihZoAlA" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Stanford University Graduate School of Business</a>, Boston College is also #1 in the US in terms of the number of Unicorn founders among alumni with Finance majors.
+        Boston College has been consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Shanghai Academic Rankings</a> among Top-10/Top-20 academic research institions in Finance. According to <a href="https://www.linkedin.com/posts/ilyavcandpe_stanford-and-harvard-dont-lead-every-field-share-7454293010529554432-KN77/?rcm=ACoAAAwNsqwBrBv2RzTrqD6TdAs_fyGNihZoAlA" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Stanford University Graduate School of Business</a>, Boston College is also #1 in the US in terms of the number of Unicorn founders among alumni with Finance majors.
     </p>
     
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-        EDHEC is particularly strong at the intersection of academic and industry research and its Master's Program in Finance has been consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Financial Times</a> in recent years. 
+        EDHEC is particularly strong at the intersection of academic and industry research and its Master's Program in Finance has been consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Financial Times</a>. 
     </p>
 
 </div>
