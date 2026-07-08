@@ -520,8 +520,65 @@ blockquote.academic-quote {
    5. COURSES & TEACHING PAGE LAYOUT
    ========================================================================== */
 
+.teaching-page-wrapper {
+  margin-top: 1.5rem;
+  
+  // Page Title Styles
+  .page-header-block {
+    margin-bottom: 2rem;
+
+    .page-main-title {
+      font-family: 'Cormorant Garamond', serif !important;
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: var(--text-color, #222222);
+      margin-bottom: 0.5rem;
+    }
+
+    .header-accent-bar {
+      width: 40px;
+      height: 2px;
+      background-color: var(--primary-color, #1f3b73);
+    }
+  }
+
+  // Intro Note Placement & Accentuated Hyperlink
+  .teaching-intro-note {
+    margin-bottom: 2.5rem;
+
+    p {
+      font-size: 1.1rem; // Increased font footprint
+      color: var(--text-color, #222222);
+      line-height: 1.6;
+    }
+
+    .custom-teaching-link {
+      color: var(--primary-color, #1f3b73);
+      font-weight: 700; // Pronounced bold weighting
+      text-decoration: none;
+      border-bottom: 2px solid var(--primary-color, #1f3b73); // Bold solid underline accent
+      transition: opacity 0.2s ease-in-out;
+
+      &:hover {
+        color: var(--primary-color, #1f3b73);
+        text-decoration: none;
+        opacity: 0.85;
+      }
+    }
+  }
+
+  // Secondary Layout Header: "Courses"
+  .section-courses-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 700;
+    font-size: 1.8rem; // Perfectly mid-scale hierarchical size
+    color: var(--text-color, #222222);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2px;
+  }
+}
+
 .courses-container {
-  margin-top: 2rem;
   margin-bottom: 4rem;
 
   .course-item {
