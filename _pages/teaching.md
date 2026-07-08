@@ -24,9 +24,9 @@ nav_order: 4
     <div class="course-item">
       <h3 class="course-title">MFIN 1021: Fundamentals of Finance</h3>
       <div class="course-metadata">
-        <span class="meta-institution">Boston College</span>&bull;
-        <span class="meta-role">Teaching Assistant</span>&bull;
-        <span class="meta-duration">2 Semesters</span>&bull;
+        <span class="meta-institution">Boston College</span> &bull;
+        <span class="meta-role">Teaching Assistant</span> &bull;
+        <span class="meta-duration">2 Semesters</span> &bull;
         <span class="meta-duration"><large>100-150</large> students <small>per Semester</small></span>
       </div>
       <div class="course-description">
