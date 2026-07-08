@@ -523,7 +523,7 @@ blockquote.academic-quote {
 .teaching-page-wrapper {
   margin-top: 1.5rem;
   
-  // Page Title Styles
+  // Page Title Styles (Updated to Blue)
   .page-header-block {
     margin-bottom: 2rem;
 
@@ -531,7 +531,7 @@ blockquote.academic-quote {
       font-family: 'Cormorant Garamond', serif !important;
       font-weight: 700;
       font-size: 2.5rem;
-      color: var(--text-color, #222222);
+      color: var(--primary-color, #1f3b73); // Explicitly changed to Blue
       margin-bottom: 0.5rem;
     }
 
@@ -547,16 +547,16 @@ blockquote.academic-quote {
     margin-bottom: 2.5rem;
 
     p {
-      font-size: 1.1rem; // Increased font footprint
+      font-size: 1.1rem;
       color: var(--text-color, #222222);
       line-height: 1.6;
     }
 
     .custom-teaching-link {
       color: var(--primary-color, #1f3b73);
-      font-weight: 700; // Pronounced bold weighting
+      font-weight: 700;
       text-decoration: none;
-      border-bottom: 2px solid var(--primary-color, #1f3b73); // Bold solid underline accent
+      border-bottom: 2px solid var(--primary-color, #1f3b73);
       transition: opacity 0.2s ease-in-out;
 
       &:hover {
@@ -567,12 +567,12 @@ blockquote.academic-quote {
     }
   }
 
-  // Secondary Layout Header: "Courses"
+  // Secondary Layout Header: "Courses" (Updated to Blue)
   .section-courses-title {
     font-family: 'Cormorant Garamond', serif !important;
     font-weight: 700;
-    font-size: 1.8rem; // Perfectly mid-scale hierarchical size
-    color: var(--text-color, #222222);
+    font-size: 1.8rem;
+    color: var(--primary-color, #1f3b73); // Explicitly changed to Blue
     margin-bottom: 1.5rem;
     letter-spacing: 0.2px;
   }
@@ -596,7 +596,7 @@ blockquote.academic-quote {
     font-family: 'Cormorant Garamond', serif !important;
     font-weight: 600;
     font-size: 1.45rem;
-    color: var(--primary-color, #1f3b73);
+    color: var(--primary-color, #1f3b73); // Keeps matching Blue accent
     margin-bottom: 0.25rem;
     line-height: 1.2;
   }
