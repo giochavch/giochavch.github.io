@@ -98,7 +98,7 @@ body .container,
 }
 
 .hero-right { flex: 0 0 auto; /* Don't grow, don't shrink, size based on content */ }
-.hero-graph { /* width is now controlled by content and flex properties */ }
+/* .hero-graph { width is now controlled by content and flex properties */
 
 .hero-center { 
     flex: 2 1 50%; /* Grow twice as fast, allow shrinking, base width 50% */
