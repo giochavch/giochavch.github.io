@@ -5,7 +5,7 @@ permalink: /institutions/
 ---
 
 <div style="text-align: left; margin-bottom: 40px; margin-top: 10px;">
-    <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;"> About Affiliated Institutions </h1>
+    <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;"> About Associated Institutions </h1> 
 
 <div style="height: 30px; clear: both;"></div>
 
