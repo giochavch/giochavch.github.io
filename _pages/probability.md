@@ -1,27 +1,41 @@
 ---
 layout: page
 title: Probability for Quant Interviews
-permalink: /probability_quant/
+permalink: /probability/
+images:
+  lightbox2: true # Enable lightbox for this page
 ---
 
 <div class="page-container container">
-
   <header class="faq-header">
-    <h1>Probability Book: Frequently Asked Questions</h1>
-    <p class="faq-intro">
-      Welcome to the official FAQ repository. Below you will find answers to the most common inquiries regarding textbook editions, technical prerequisite pathways, code repository access, and curriculum integration.
-    </p>
+    <h1 style="text-align: center;">Probability for Quantitative Interviews</h1>
+    <!-- Photo Container moved inside the header -->
+    <div class="book-gallery-container mb-4">
+      <!-- Main clickable image to open the gallery -->
+      <a href="/assets/img/probability_book/Quant Prep Book Cover.png" data-lightbox="book-gallery">
+        <img src="/assets/img/probability_book/Quant Prep Book Cover.png" class="img-fluid rounded z-depth-1 main-gallery-image" style="max-width: 450px; margin: auto; display: block;">
+      </a>
+      <!-- Small thumbnails displayed below the main image -->
+      <div class="gallery-thumbnails mt-3 d-flex justify-content-center">
+        <a href="/assets/img/probability_book/contents_2.png" data-lightbox="book-gallery">
+          <img src="/assets/img/probability_book/contents_2.png" class="img-thumbnail me-2" style="width: 80px; height: auto;">
+        </a>
+        <a href="/assets/img/probability_book/contents_1.png" data-lightbox="book-gallery">
+          <img src="/assets/img/probability_book/contents_1.png" class="img-thumbnail" style="width: 80px; height: auto;">
+        </a>
+      </div>
+      <!-- Hidden links for other images in the gallery (if the main image is also part of the gallery) 
+      <a href="/assets/img/probability_book/book_toc.png" data-lightbox="book-gallery" class="d-none"></a> -->
+    </div>
   </header>
 
   <div class="author-redirect-box">
-    <span class="redirect-text">Have specific research questions or interested in academic collaboration?</span>
-    <a href="/about/" class="about-author-link">
+    <a href="/" class="about-author-link">
       About the Author <i class="bi bi-arrow-right-short"></i>
     </a>
   </div>
 
   <div class="faq-accordion-wrapper">
-    
     <details class="faq-item">
       <summary class="faq-question">
         What mathematical prerequisites are required to comfortably follow this text?
@@ -33,7 +47,6 @@ permalink: /probability_quant/
         </p>
       </div>
     </details>
-
     <details class="faq-item">
       <summary class="faq-question">
         Is there an open-source repository containing the Python/R simulation code used in the examples?
@@ -45,7 +58,6 @@ permalink: /probability_quant/
         </p>
       </div>
     </details>
-
     <details class="faq-item">
       <summary class="faq-question">
         Are solutions available for the end-of-chapter exercises and structural proofs?
@@ -57,7 +69,6 @@ permalink: /probability_quant/
         </p>
       </div>
     </details>
-
     <details class="faq-item">
       <summary class="faq-question">
         Will there be a second edition tracking modern machine learning frameworks?
