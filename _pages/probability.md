@@ -8,12 +8,11 @@ images:
 
 <div class="page-container container">
   <header class="faq-header">
-    <h1 style="text-align: center;">Probability for Quantitative Interviews</h1>
     <!-- Photo Container moved inside the header -->
     <div class="book-gallery-container mb-4">
       <!-- Main clickable image to open the gallery -->
       <a href="/assets/img/probability_book/Quant Prep Book Cover.png" data-lightbox="book-gallery">
-        <img src="/assets/img/probability_book/Quant Prep Book Cover.png" class="img-fluid rounded z-depth-1 main-gallery-image" style="max-width: 450px; margin: auto; display: block;">
+        <img src="/assets/img/probability_book/Quant Prep Book Cover.png" class="img-fluid rounded z-depth-1 main-gallery-image-constrained">
       </a>
       <!-- Small thumbnails displayed below the main image -->
       <div class="gallery-thumbnails mt-3 d-flex justify-content-center">
