@@ -646,6 +646,13 @@ blockquote.academic-quote {
    CUSTOM PROBABILITY BOOK FAQ COMPONENT STYLING
    ========================================================================== */
 
+.main-gallery-image-constrained {
+  max-width: 450px; /* Set max-width for larger screens */
+  margin: auto;
+  display: block;
+  width: 100%; /* Ensure it scales down on smaller screens */
+}
+
 .faq-header {
   margin-bottom: 30px;
   
