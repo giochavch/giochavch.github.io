@@ -84,6 +84,17 @@ images:
         </p>
       </div>
     </details>
+    <details class="faq-item">
+      <summary class="faq-question">
+        Institutional Disclaimer
+        <span class="faq-icon-toggle"></span>
+      </summary>
+      <div class="faq-answer">
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
+          The book is an independent work and is not associated with any of my current or former institutions.
+        </p>
+      </div>
+    </details>
 
   </div>
 </div>

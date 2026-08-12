@@ -6,8 +6,8 @@ nav_order: 8
 dropdown: true
 children:
   - title: Probability for Quantitative Interviews
-    permalink: /probability_quant/
+    permalink: /probability/
   - title: divider
   - title: Exam Grading System
-    permalink: /grading_system/
+    permalink: /grading/
 ---

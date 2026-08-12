@@ -20,7 +20,6 @@ nav_order: 4
   <h2 class="section-courses-title">Courses</h2>
 
   <div class="courses-container">
-    
     <div class="course-item">
       <h3 class="course-title">MFIN 1021: Fundamentals of Finance</h3>
       <div class="course-metadata">
@@ -33,7 +32,10 @@ nav_order: 4
         <p>The course covers fundamental topics in finance, such as Time Value of Money, Inflation, Retirement, Bond Valuation, Financial Statements and Ratios, Capital Budgeting (with Risk and Taxes), Scenario Analysis, Risk and Return, CAPM and Beta, Stock Valuation and Efficient Markets Hypothesis.</p>
       </div>
     </div>
-
+    <h2 class="section-courses-title">Independent Tutoring</h2>
+    <div class="teaching-intro-note">
+    <p>I have also tutored students in Political Economy, Finance Fundamentals, Quantitative Finance, Probability Theory and Econometrics throught Wyzant, SuperProf and UpWork.</p>
+    </div>
   </div>
 
 </div>

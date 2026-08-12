@@ -1,0 +1,39 @@
+---
+layout: page
+permalink: /grading/
+title: Grading System
+---
+
+<div class="research-intro-note scroll-section">
+  <p style="font-size: 1.2em; color: #1f3b73; font-weight: bold;">
+  The content will be added soon.</p>
+</div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var navbar = document.getElementById("navbar");
+    if (navbar) {
+      // 1. Swap breakpoints to protect tablet viewports
+      navbar.classList.remove("navbar-expand-sm");
+      navbar.classList.add("navbar-expand-lg");
+      
+      // 2. Fix potential desktop visibility blocking issues
+      // Forces horizontal row items to explicitly display on large viewports
+      var navbarNav = navbar.querySelector(".navbar-nav");
+      if (navbarNav) {
+        navbarNav.classList.add("flex-lg-row");
+      }
+    }
+
+    // 3. Automatically inject a clean hamburger logo if it's currently an empty box
+    var togglerButton = document.querySelector(".navbar-toggler");
+    if (togglerButton) {
+      // Check if it's empty or doesn't have the icon class yet
+      if (!togglerButton.querySelector(".navbar-toggler-icon")) {
+        // Clear whatever broken or empty container is there and insert the native icon
+        togglerButton.innerHTML = '<span class="navbar-toggler-icon"></span>';
+      }
+    }
+  });
+</script>
