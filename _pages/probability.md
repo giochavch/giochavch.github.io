@@ -28,7 +28,7 @@ images:
     </div>
   </header>
 
-  <div class="author-redirect-box">
+  <div class="author-redirect-box" style="margin-bottom: 0.8rem;">
     <a href="/" class="about-author-link">
       About the Author <i class="bi bi-arrow-right-short"></i>
     </a>
@@ -41,7 +41,7 @@ images:
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
-        <p>
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
           The book develops Probability Theory around the types of problems asked in Quantitative Finance probability interviews and assessments. You can think of it as a high-quality Probability textbook that <br>
           1) is stripped of Probability material unlikely to be relevant for interviews, <br>
           2) serves as a single consolidated space for all interview-relevant concepts a reader can get back to at their convenience, <br>
@@ -56,30 +56,31 @@ images:
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
-        <p>
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
           While primarily targeted at the individuals preparing for Quantitative Finance Probability assessments and interviews (see "What This Book is About" section), the book is useful for anyone looking for a quick and intuitive introduction to a wide range of probability concepts. It will also help undergraduate and graduate students who might find standard textbook language too formal and unintuitive. 
         </p>
       </div>
     </details>
     <details class="faq-item">
       <summary class="faq-question">
-        Are solutions available for the end-of-chapter exercises and structural proofs?
+        More Than a Book
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
-        <p>
-          A comprehensive Solutions Manual is available exclusively to verified course instructors and academic faculty members. If you are adopting this text for a university curriculum, please submit an official request through your institutional email.
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
+          A buyer of the book does not simply get access to an electronic copy of the book. They also get access to all future updates and an ability to interact with the author and ask any clarifying questions. Hence, buyers get a lifetime subscription to a dynamic resource rather than a static copy of a book. <br><br>
+          Readers are welcome to request content additions or solutions to specific problems they find challenging. I strive to respond to all such requests as soon as time allows.
         </p>
       </div>
     </details>
     <details class="faq-item">
       <summary class="faq-question">
-        Will there be a second edition tracking modern machine learning frameworks?
+        Reading Experience
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
-        <p>
-          A revised edition is currently under development. It features expanded sections on high-dimensional probability bounds, concentration inequalities, and applications to statistical learning theory. Stay tuned for structural updates later this academic year.
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
+          The book can be accessed on any device using any modern browser with a built-in PDF reader, and it comes with clickable links for easy navigation to and from sections and equations.
         </p>
       </div>
     </details>
