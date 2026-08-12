@@ -37,23 +37,27 @@ images:
   <div class="faq-accordion-wrapper">
     <details class="faq-item">
       <summary class="faq-question">
-        What mathematical prerequisites are required to comfortably follow this text?
+        What This Book is About
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
         <p>
-          The text assumes a foundational understanding of multivariable calculus and basic linear algebra. Prior exposure to rigorous proofs or real analysis is helpful but not strictly required, as essential measure-theoretic tools are self-contained and introduced gradually.
+          The book develops Probability Theory around the types of problems asked in Quantitative Finance probability interviews and assessments. You can think of it as a high-quality Probability textbook that <br>
+          1) is stripped of Probability material unlikely to be relevant for interviews, <br>
+          2) serves as a single consolidated space for all interview-relevant concepts a reader can get back to at their convenience, <br>
+          3) relies on mathematical formalism while always translating key insights to intuitive English, and <br>
+          4) offers generalized discussion of problem-solving tricks and techniques.
         </p>
       </div>
     </details>
     <details class="faq-item">
       <summary class="faq-question">
-        Is there an open-source repository containing the Python/R simulation code used in the examples?
+        Who This Book is For
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
         <p>
-          Yes, all computational experiments, stochastic process visualizations, and numerical simulations featured in Chapters 4 through 11 are completely open-source. You can access the official code repository via the GitHub link provided in the introductory chapter or contact the author directly for lecture integration assets.
+          While primarily targeted at the individuals preparing for Quantitative Finance Probability assessments and interviews (see "What This Book is About" section), the book is useful for anyone looking for a quick and intuitive introduction to a wide range of probability concepts. It will also help undergraduate and graduate students who might find standard textbook language too formal and unintuitive. 
         </p>
       </div>
     </details>

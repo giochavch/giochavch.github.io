@@ -8,18 +8,15 @@ nav_order: 3
 
 <div class="container mt-4">
   <div class="row">
-
     <!-- Main Content -->
     <div class="col-lg-9 col-md-8">
       <div class="research-page-wrapper">
-  
         <div class="page-header-block">
           <h1 class="page-main-title">Research</h1>
           <div class="header-accent-bar"></div>
-        </div>
-      
+        </div>   
         <div id="research-statement" class="research-intro-note scroll-section">
-          <p>You can read my research statement <a href="/research_statement/" class="custom-link">here</a>.</p>
+          <p>You can read my research statement <a href="/content_upcoming/" class="custom-link">here</a>.</p>
         </div>
       
         <!-- Working Papers Section -->

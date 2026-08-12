@@ -8,17 +8,14 @@ permalink: /institutions/
     <h1 style="font-size: 32px; font-weight: bold; color: #1f3b73; margin-bottom: 5px;"> About Associated Institutions </h1> 
 
 <div style="height: 30px; clear: both;"></div>
-
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
         CERGE-EI <a href="https://www.cerge-ei.cz/governance/executive-and-supervisory-committee" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Executive and Supervisory Committee</a> includes 3 Nobel laureates in Economics.
-    </p>
-    
+    </p>   
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
         Boston College is consistently ranked by <a href="https://www.shanghairanking.com/rankings/gras/2025/AS0510" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Shanghai Academic Rankings</a> among Top-10/Top-20 academic research institions in Finance globally. According to <a href="https://www.linkedin.com/posts/ilyavcandpe_stanford-and-harvard-dont-lead-every-field-share-7454293010529554432-KN77/?rcm=ACoAAAwNsqwBrBv2RzTrqD6TdAs_fyGNihZoAlA" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Stanford University Graduate School of Business</a>, Boston College is also #1 in the US in terms of the number of Unicorn founders among alumni with Finance majors.
-    </p>
-    
+    </p> 
     <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222; margin-bottom: 20px;">
-        EDHEC is particularly strong at the intersection of academic and industry research and its Master's Program in Finance is consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Financial Times</a>. 
+        <a href="https://www.edhec.edu/en/about-us/why-edhec/ranking-accreditations" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">EDHEC</a> is particularly strong at the intersection of <a href="https://climateinstitute.edhec.edu/ventures" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">academic and industry research</a> and its Master's Program in Finance is consistenly ranked among Top-5/Top-10 globally by <a href="https://rankings.ft.com/rankings/3045/masters-in-finance-pre-experience-2026" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Financial Times</a>. 
     </p>
 
 </div>
