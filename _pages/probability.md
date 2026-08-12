@@ -14,7 +14,7 @@ images:
       <a href="/assets/img/probability_book/Quant Prep Book Cover.png" data-lightbox="book-gallery">
         <img src="/assets/img/probability_book/Quant Prep Book Cover.png" class="img-fluid rounded z-depth-1 main-gallery-image-constrained">
       </a>
-      <!-- Small thumbnails displayed below the main image -->
+      <!-- Small thumbnails displayed below the main image 
       <div class="gallery-thumbnails mt-3 d-flex justify-content-center">
         <a href="/assets/img/probability_book/contents_2.png" data-lightbox="book-gallery">
           <img src="/assets/img/probability_book/contents_2.png" class="img-thumbnail me-2" style="width: 80px; height: auto;">
@@ -23,6 +23,7 @@ images:
           <img src="/assets/img/probability_book/contents_1.png" class="img-thumbnail" style="width: 80px; height: auto;">
         </a>
       </div>
+      -->
       <!-- Hidden links for other images in the gallery (if the main image is also part of the gallery) 
       <a href="/assets/img/probability_book/book_toc.png" data-lightbox="book-gallery" class="d-none"></a> -->
     </div>
