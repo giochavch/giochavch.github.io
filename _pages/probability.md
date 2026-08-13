@@ -76,12 +76,39 @@ images:
     </details>
     <details class="faq-item">
       <summary class="faq-question">
+        Value of the Book Relative to Existing Resources
+        <span class="faq-icon-toggle"></span>
+      </summary>
+      <div class="faq-answer">
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
+          There are a few excellent Probability textbooks (e.g. Introduction to Probability by Blitzstein and Hwang) and a few excellent books written specifically for Quant interview preparation (e.g. "Heard on the Street" and "Practical Guide to Quantitative Finance Interviews"). <a href="https://openquant.co/questions" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">OpenQuant</a> also provides a free large problem set with solutions and practice tests. <br><br>
+          However, standard Probability textbooks are an overkill for interview preparation, because they are written for a wide range of audiences with the scope and depth that can quickly overwhelm a reader who is primarily preparing for Quantitative Finance Probability assessments and interviews (nor would a reader know in advance which parts of the textbook would be most relevant to them). <br><br>
+          In contrast, books or online resources written or created for interview preparation either focus on problems and solutions only and skip theory altogether, or scatter theoretical discussions across solutions rather than provide a single exhaustive resource that develops all relevant concepts from ground up. <br><br>
+          Moreover, students from my experience also look for generalizability in problem solving approaches and try to draw parallels between similar problems and approaches. Being able to take solution methods beyond the immediate context of a problem is also a feature prospective employers greatly value and is an edge in the recruitment process. Students with insufficient Probability background might find it hard to develop this skill within reasonable timeframe based on individual problem solutions alone, which is what existing prep resources are constrained to, unfortunately. <br><br>
+          The Probability for Quantitative Interviews is written exactly with the aim of filling these gaps and its novel design (see "More Than a Book" section) provides additional conveniences for readers along the way.
+        </p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">
         Reading Experience
         <span class="faq-icon-toggle"></span>
       </summary>
       <div class="faq-answer">
         <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
           The book can be accessed on any device using any modern browser with a built-in PDF reader, and it comes with clickable links for easy navigation to and from sections and equations.
+        </p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">
+        How to Get the Book
+        <span class="faq-icon-toggle"></span>
+      </summary>
+      <div class="faq-answer">
+        <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
+          The book is in the final stages of production. You can get a free temporary 1-week access to the working version by emailing contact@gioch.me. In the email, you must indicate your interest in and the expected benefit from the book. You will get the temporary access link only if the interest and expected benefit are clearly explained. The access can be extended by another week each time you provide useful feedback about the book. The feedback can include comments about the usefulness of existing content,  thoughtful clarifying questions about material and suggestions about future content.
         </p>
       </div>
     </details>

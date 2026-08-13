@@ -34,29 +34,30 @@ nav_order: 3
                 about future regime likelihood and show how beliefs can be jointly backed out
                 from the term structures of long-term bond yields and individual and S&P500
                 VIX measures and their futures. <br><br>The new framework qualitatively explains a wedge between investor risk premium and observed average excess returns, a cyclicality gap between subjective risk premia and realized excess returns, a pro-cyclical gap between VIX and realized volatility, yield curve inversion/reversions without a regime shift, return predictability, narrative momentum, market crashes without macroeconomic contractions, and fast price recoveries during economic downturns.</p>
-                <div class="paper-conferences mt-3">
-                <h4 class="conferences-title" style="font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;"><i>Presentations:</i></h4>
-                <div class="d-flex justify-content-end" style="margin-bottom: 0.5rem;">
-                  <ul class="list-unstyled" style="min-width: 50%;">
-                    <li class="d-flex align-items-center justify-content-between mb-2">
-                      <span style="font-size: 120%; margin-right: 12rem;">World Finance Conference 2026, Online</span>
-                      <a href="/assets/pdf/wfc_2026.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm view-paper-btn" style="text-decoration: none;">
-                        <i class="bi bi-file-earmark-slides"></i>
-                        <span>View Presentation</span>
-                        <i class="bi bi-arrow-right-short"></i>
-                      </a>
-                    </li>
-              </ul>
-            </div>
-            </div>
-            <div class="paper-buttons mt-1">
+                <div class="paper-buttons mt-1">
                 <a href="/assets/pdf/bad_regime_risk.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm view-paper-btn">
                   <i class="bi bi-file-earmark-pdf"></i>
                   <span>View Paper</span>
                   <i class="bi bi-arrow-right-short"></i>
-                </a>
+                    </a>
+                </div>
+                <!-- Presentations moved inside the paper description -->
+                <div class="paper-conferences mt-4">
+                  <h4 class="conferences-title" style="font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;"><i>Presentations:</i></h4>
+                  <div class="d-flex justify-content-end">
+                    <ul class="list-unstyled" style="min-width: 50%;">
+                      <li class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between mb-2">
+                        <span class="mb-2 mb-md-0" style="font-size: 120%;">World Finance Conference 2026, Online</span>
+                        <a href="/assets/pdf/wfc_2026.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm view-paper-btn" style="text-decoration: none; padding: 8px 16px;">
+                          <i class="bi bi-file-earmark-slides" style="flex-shrink: 0;"></i>
+                          <span>View Presentation</span>
+                          <i class="bi bi-arrow-right-short"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              </div>              
             </div>
             <div class="paper-item">
               <h3 class="paper-title">Borrower-Lender Game, Firm Outcomes and Systemic Risk</h3>
