@@ -107,7 +107,7 @@ images:
       </summary>
       <div class="faq-answer">
         <p style="text-align: justify; font-size: 18px; line-height: 1.75; color: #222222;">
-          The book is in the final stages of production. You can get a free temporary 1-week access to the working version by emailing contact@gioch.me. In the email, you must indicate your interest in and the expected benefit from the book. You will get the temporary access link only if the interest and expected benefit are clearly explained. The access can be extended by another week each time you provide useful feedback about the book. The feedback can include comments about the usefulness of existing content,  thoughtful clarifying questions about material and suggestions about future content.
+          The book is in the final stages of production. You can get a free temporary 1-week access to the working version by emailing <a href="mailto:contact@gioch.me">contact@gioch.me</a>. In the email, you must indicate your interest in and the expected benefit from the book, as well as how you came across it. You will get the temporary access link only if the interest and expected benefit are clearly explained. The access can be extended by another week each time you provide useful feedback about the book. The feedback can include comments about the usefulness of existing content,  thoughtful clarifying questions about material and suggestions about future content.
         </p>
       </div>
     </details>
