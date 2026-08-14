@@ -34,7 +34,7 @@ nav_order: 4
     </div>
     <h2 class="section-courses-title">Independent Tutoring</h2>
     <div class="teaching-intro-note">
-    <p>I have also tutored students in Political Economy, Finance Fundamentals, Quantitative Finance, Probability Theory and Econometrics throught Wyzant, SuperProf and UpWork.</p>
+    <p>I have also tutored students in Political Economy, Finance Fundamentals, Quantitative Finance, Probability Theory and Econometrics through Wyzant, SuperProf and UpWork.</p>
     </div>
   </div>
 

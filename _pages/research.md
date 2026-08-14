@@ -43,12 +43,12 @@ nav_order: 3
                 </div>
                 <!-- Presentations moved inside the paper description -->
                 <div class="paper-conferences mt-4">
-                  <h4 class="conferences-title" style="font-weight: 700; color: var(--primary-color); margin-bottom: 1rem;"><i>Presentations:</i></h4>
+                  <h4 class="conferences-title" style="font-weight: 700; color: var(--primary-color);"><i>Presentations:</i></h4>
                   <div class="d-flex justify-content-end">
-                    <ul class="list-unstyled" style="min-width: 50%;">
-                      <li class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between mb-2">
-                        <span class="mb-2 mb-md-0" style="font-size: 120%;">World Finance Conference 2026, Online</span>
-                        <a href="/assets/pdf/wfc_2026.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm view-paper-btn" style="text-decoration: none; padding: 8px 16px;">
+                    <ul class="list-unstyled" style="min-width: 50%;">                  
+                      <li class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-md-between">
+                        <span class="mb-2 mb-md-0 d-flex align-items-center" style="font-size: 120%; line-height: 1.2;">World Finance Conference 2026, Online</span>
+                        <a href="/assets/pdf/wfc_2026.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm view-paper-btn d-inline-flex align-items-center gap-1 mb-md-0" style="text-decoration: none; margin-bottom: 0.8rem;">
                           <i class="bi bi-file-earmark-slides" style="flex-shrink: 0;"></i>
                           <span>View Presentation</span>
                           <i class="bi bi-arrow-right-short"></i>
