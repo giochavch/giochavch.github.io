@@ -62,7 +62,7 @@ nav_order: 3
             <div class="paper-item">
               <h3 class="paper-title">Borrower-Lender Game, Firm Outcomes and Systemic Risk</h3>
               <div class="paper-metadata">
-                <span class="meta-coauthor">Along with <a href="https://sites.google.com/bc.edu/shashwat-agrawal/home" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Shashwat Agrawal</a></span>
+                <span class="meta-coauthor">Along with <a href="https://shashwat-agrawal-finance.github.io" target="_blank" rel="noopener noreferrer" style="color: #1f3b73; font-weight: bold;">Shashwat Agrawal</a></span>
               </div>
               <div class="paper-description" style="text-align: justify;">
                 <p>We develop a game-theoretic model to analyze a strategic interaction between a small firm and its lender within a credit reporting setting. The lender faces a trade-off. Reporting information risks losing the borrower by helping it unlock additional funding opportunities, while withholding information protects the borrower-lender relationship at a potential cost of firm default and non-payment in the event of default. The firm observes the economic state and its credit record and decides whether to search for new funding. We estimate the model using loan and firm data for India and the US from 2005 to 2022 with GMM and and analyze the implications for the design of credit registries and financial stability policy.</p>
